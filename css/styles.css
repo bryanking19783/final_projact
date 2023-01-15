@@ -1,0 +1,177 @@
+.flex-container{
+  display: flex;
+
+}
+body{
+  background-image: url(https://ibvi.org/wp-content/uploads/2019/12/IBVI_Blog_MustHaveBackToSchoolSupplies_1920x820.jpg);
+}
+.flex-container > *{
+margin: 20px
+}
+#sidenav ul{
+ margin: 0;
+ padding: 0
+}
+
+
+#sidenav li{
+  font-size: 30px;
+   margin-bottom: 10px;
+   padding: 10px;
+   background-image: linear-gradient(white,gray);
+   text-decoration: none;
+
+}
+nav{
+  flex-grow:5;
+  flex-basis: 500px;
+}
+footer{
+  background-color:  black;
+  color: white;
+  text-align: center;
+  font-size: 20px
+}
+#eee{
+  background-color: white;
+  height: 1100px;
+  border:2px groove black;
+
+}
+#aside1{
+  background-image: linear-gradient(white,teal);
+}
+li{
+  list-style-type: none;
+}
+li a{
+  text-decoration: none;
+}
+#aside1{
+  font-size: 30px
+}
+ #article1{
+   font-size: 40px
+ }
+header{
+  background-image: linear-gradient(white,teal);
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-family: monospace;
+
+}
+
+h1{
+  font-size: 40px
+}
+.formlogin{
+  margin: auto;
+  width: 500px
+
+}
+
+div{
+  background-color: white;
+  height: 300px;
+  border:2px groove black;
+
+}
+
+#how{
+  height: 600px
+}
+li{
+list-style-type: none;
+font-size: 30px
+}
+form{
+
+}
+button{
+font-size: 30px;
+}
+body{
+background-image: url(https://ibvi.org/wp-content/uploads/2019/12/IBVI_Blog_MustHaveBackToSchoolSupplies_1920x820.jpg);
+}
+
+input{
+font-size: 30px
+}
+.formlogin{
+  margin: auto;
+  width: 500px
+
+}
+.topnav{
+  background-image: linear-gradient(white,grey);
+  position: fixed;
+
+
+
+
+}
+
+
+.topnav li{
+  font-size: 30px;
+text-decoration: none;
+display: inline;
+font-size: 30px;
+ margin-bottom: 10px;
+ padding: 10px;
+
+}
+
+
+p{
+  font-size: 30px;
+
+
+  font-family: monospace;
+}
+div{
+  background-color: white;
+  height: 400px;
+  border:2px groove black;
+
+}
+
+
+
+li{
+list-style-type: none;
+font-size: 30px
+}
+#si{
+text-align: center;
+}
+#sidenav ul{
+ margin: 0;
+ padding: 0
+}
+
+#lov{
+  text-align: center;
+}
+.topnav li a{
+  text-decoration: none;
+  float: right;
+}
+#news{
+  height: 700px
+}
+button{
+font-size: 30px;
+}
+body{
+background-image: url(https://ibvi.org/wp-content/uploads/2019/12/IBVI_Blog_MustHaveBackToSchoolSupplies_1920x820.jpg);
+}
+
+input{
+font-size: 30px
+}
+#section1{
+  border: 2px groove black;
+  background-color: white
+}
