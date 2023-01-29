@@ -2,10 +2,13 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <script src="../scripts/log-in.js" ></script>
     <link rel="stylesheet" href="../css/styles.css">
 
      <style>
-
+span{
+  color: red;
+}
      </style>
 </head>
 <body id="sw">
@@ -20,13 +23,13 @@
 <section class="whachap">
 
 <article class="formlogin">
-  <form id="si"action="home.html">
+  <form id="si" name="login" action="home.html" onsubmit="return validatelogin();">
     <div>
     <p><label for="Email"><li>Email</li></label><br/>
-    <input type="email" name="email" value="" id="email"><br/></p>
+    <input type="email" name="email" value="" id="email"><span id="emailErr"></span><br/></p>
 
   <p><label for="pass"><li>Password</li></label><br/>
-  <input type="password" name="pass" value="" id="pass"><br/></p>
+  <input type="password" name="pass" value="" id="pass"><span id="passErr"></span><br/></p>
 
   <button type="submit" value="Next">Next<br/>
 </div>
